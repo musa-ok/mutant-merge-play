@@ -150,7 +150,7 @@
   </main>
 </div>
 
-<script src="Build/WebGL.loader.js"></script>
+<script src="Build/WebGL.loader.js?v=3"></script>
 <script>
   (function () {
     var canvas = document.getElementById("unity-canvas");
@@ -172,9 +172,9 @@
     }
 
     var config = {
-      dataUrl: "Build/game-data.wasm",
-      frameworkUrl: "Build/game-framework.wasm",
-      codeUrl: "Build/game-code.wasm",
+      dataUrl: "Build/game-data.wasm?v=3",
+      frameworkUrl: "Build/game-framework.wasm?v=3",
+      codeUrl: "Build/game-code.wasm?v=3",
       // Files are gzip-compressed; the loader detects that from their content and unpacks them in JS.
       streamingAssetsUrl: "StreamingAssets",
       companyName: "MutantMergeStudio",
